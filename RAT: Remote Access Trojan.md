@@ -49,10 +49,10 @@ Similarly, the hacker can perform the following activities:
   * Viewing and downloading saved passwords in browser ( RC --> Manager --> Get Passwords)
   * Remote Desktop ( RC --> Remote Desktop)
   * Install keyloggers to capture keys entered by the victim ( RC --> Keylogger)
-  *etc.
+  * etc.
   
 ![nj_RAT_07](https://user-images.githubusercontent.com/90869009/158083622-ece89da7-731b-449e-846f-ada73c293196.jpg)
-Finally, access to the victim system can be terminated by the hacker(RC --> Keylogger --> Close).
+Finally, access to the victim system can be terminated by the hacker (RC --> Server --> Close).
 
 
 
