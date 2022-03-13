@@ -2,7 +2,7 @@
 **RAT** stands for **Remote Access Trojan** or **Remote Administration Tool**. This type of tool is one of the most terrible security threats for both individuals and organizations. Using RAT, a hacker can take complete control of victim’s computer and do anything with it.
 
 ## *What Can a RAT Virus Do?*
-RAT is often used by **APT attackers**, which can give them interactive access to a victim’s computer and steal confidential data. Once RAT is installed on the victim's computer system, the hacker can do almost anything with the system. 
+RAT is often used by **APT attackers** to gain interactive access to a victim's computer and steal confidential data. Once RAT is installed on the victim's computer system, the hacker can do almost anything with the system. 
 
 Some of these malicious activities are as follows:
   * Monitoring victim's screen.
@@ -13,7 +13,12 @@ Some of these malicious activities are as follows:
   
 
 ## *Can RATs Be Useful?*
-Although most RAT Programs are malicious, there are some useful RATs. Programs like TeamViewer are valuable programs used to remotely control systems over the Internet and to transfer files and support systems. When there is a technical problem with any of the computers at workplaces, the corporate IT guys may use a RAT to gain access to the computer and resolve the issue.
+Although most RATs are malicious, there are some useful RATs. Programs like TeamViewer are valuable Rats used to remotely control systems over the Internet and to transfer files and support systems. When there is a technical problem with any of the computers at workplaces, the corporate IT guys may use a RAT to gain access to the computer and resolve the issue.
+
+
+"RAT is a malware program that includes a back door for administrative control over the target computer". [[1]](https://www.techtarget.com/searchsecurity/definition/RAT-remote-access-Trojan)
+
+Email attachments, USB memory, and file bundles are all common ways for RAT to get into a system. RATs are typically delivered as an email attachment or downloaded silently with a user-requested program, such as a game. Once the host system has been infiltrated, the intruder can use it to spread RATs to other computers that are vulnerable, forming a botnet. 
 
 
 
