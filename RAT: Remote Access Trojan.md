@@ -7,11 +7,12 @@ The hacker can use this program to send victim’s image and video files or any 
 Rat is often used by APT attackers,which can give them interactive access to a victim’s computer and steal confidential data. Once RAT is installed on the victim's computer system, the hacker can do almost anything with the system. 
 
 Some of these malicious activities are as follows:
+  * Monitoring victim's screen.
+  * Start and open remote applications such as webcam, music player, etc.
   * Infect system files.
   * Install keyloggers to capture keys entered by the victim.
-  * Start and open remote applications such as webcam, music player, etc.
   * Use system as a zombie system for DDOS attacks.
-  * Monitoring victim's screen.
+  
 
 ## *Can RATs Be Useful?*
 Although most RAT Programs are malicious, there are some useful RATs. Programs like TeamViewer are valuable programs used to remotely control systems over the Internet and to transfer files and support systems.
