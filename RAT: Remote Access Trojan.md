@@ -13,7 +13,7 @@ Some of these malicious activities are as follows:
   
 
 ## *Can RATs Be Useful?*
-Although most RATs are malicious, there are some useful RATs. Programs like TeamViewer are valuable Rats used to remotely control systems over the Internet and to transfer files and support systems. When there is a technical problem with any of the computers at workplaces, the corporate IT guys may use a RAT to gain access to the computer and resolve the issue.
+Although most RATs are malicious, there are some useful RATs. Programs like **TeamViewer** are valuable RATs used to remotely control systems over the Internet and to transfer files and support systems. When there is a technical problem with any of the computers at workplaces, the corporate IT guys may use a RAT to gain access to the computer and resolve the issue.
 
 ## *RAT Attack Procedure*
 "RAT is a malware program that includes **a back door for administrative control** over the target computer"[[1]](https://www.techtarget.com/searchsecurity/definition/RAT-remote-access-Trojan). A backdoor is a way to get access to a computer system or encrypted data by circumventing the system's normal security measures. Email attachments, USB memory, and file bundles are all common ways for RAT to get into a system. RATs are typically delivered as an email attachment or downloaded **invisibly** with a user-requested program, such as a game or any other popular application. Once the host system has been infiltrated, the intruder can use it to spread RATs to other computers that are vulnerable, forming a botnet[[1]](https://www.techtarget.com/searchsecurity/definition/RAT-remote-access-Trojan). 
@@ -27,9 +27,13 @@ In the following, we will consider building a Windows RAT through two popular fr
  2. Metasploit
 
 ### *njRAT*
-This Remote Access Trojan (RAT) is a simple.NET backdoor that is popular among amateurs, especially in the Middle East. The majority of users are low-level criminals, and it is frequently delivered via drive-by downloads or phishing attacks. njRats files frequently include custom packets (.PDF) to avoid detection by traditional antivirus solutions, and once installed, the malware is capable of hijacking infected systems[[3]](https://www.zdnet.com/article/njrat-secures-top-spot-as-most-active-malware-on-networks-in-2017/).
+This Remote Access Trojan (RAT) is a simple.NET backdoor that is popular among amateurs, especially in the Middle East. The majority of users are low-level criminals, and it is frequently delivered via drive-by downloads or phishing attacks. njRATs files frequently include custom packets (.PDF) to avoid detection by traditional antivirus solutions, and once installed, the malware is capable of hijacking infected systems[[3]](https://www.zdnet.com/article/njrat-secures-top-spot-as-most-active-malware-on-networks-in-2017/).
+
+Here is an example  of accessing and hacking a Windows system via the njRAT tool:
+
 
 ### *Metasploit*
+Metasploit is one of the most popular penetration test frameworks that make the penetration test process easier for professionals. In addition to penetration test experts, Metasploit is famous among hackers. This framework speeds up the hacking operation and makes it more accessible.
 
 
 
