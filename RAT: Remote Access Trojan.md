@@ -36,6 +36,28 @@ By clicking on the njRAT.exe file, the user(hacker) accesses the application's e
 In Builder Windows, the local IP of the hacker's system will enter in the Host section. Of course, an IP provided by a  VPS or Port Forwarding approach would be more effective.
 ![nj_RAT_03](https://user-images.githubusercontent.com/90869009/158080884-ba144552-6756-487d-82e2-5486390f6667.jpg)
 A nickname could be set for the file (Vic Time Name Section). From Dictionary Drop-Down List, the directory of the RAT file in the target (victim's) system could be specified. A name should be set for the exe file, and finally,  the RAT file will be created by clicking on the Build button.
+![nj_RAT_04](https://user-images.githubusercontent.com/90869009/158081537-aa19aadd-37dc-4b0f-aef7-0655bdeaee74.jpg)
+In case of running exe file on the victim's system, through any of the methods mentioned earlier, the hacker will be able to access full control of the target system.
+![nj_RAT_05](https://user-images.githubusercontent.com/90869009/158082028-615a4771-4e18-4733-9d15-f307c519b463.jpg)
+The hacker could access the folders and files of the victim system just by Right-Click on the record of the victim: Manager --> File Manager
+![nj_RAT_06](https://user-images.githubusercontent.com/90869009/158082154-d97c5cce-f11c-410d-b472-fca85d5fb4a4.jpg)
+
+Similarly, the hacker can perform the following activities:
+  * Process Managing ( RC --> Manager --> Process Manage)
+  * Running CMD Commands in PowerShell ( RC --> Manager --> Remote Shell)
+  * Recording and listening to the microphone ( RC -->  Manager --> Microphone)
+  * Viewing and downloading saved passwords in browser ( RC --> Manager --> Get Passwords)
+  * Remote Desktop ( RC --> Remote Desktop)
+  * Install keyloggers to capture keys entered by the victim ( RC --> Keylogger)
+  *etc.
+  
+![nj_RAT_07](https://user-images.githubusercontent.com/90869009/158083622-ece89da7-731b-449e-846f-ada73c293196.jpg)
+Finally, access to the victim system can be terminated by the hacker(RC --> Keylogger --> Close).
+
+
+
+
+
 
 
 
