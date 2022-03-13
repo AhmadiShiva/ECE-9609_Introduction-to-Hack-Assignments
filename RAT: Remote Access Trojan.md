@@ -21,6 +21,9 @@ Although most RATs are malicious, there are some useful RATs. Programs like Team
 RATs are often built on the **Client/Server architecture**. The attacker has control over the client, and the server is installed on the victim's PC. To implement remote control for the victim host, the attacker utilizes the client to control the server[[2]](https://www.mdpi.com/2079-9292/9/11/1894/htm).
 ![02_The_Whole_Communication_of_RAT](https://user-images.githubusercontent.com/90869009/158065913-0f63b41c-fea8-4c16-ba2e-9dc57527e3c0.jpg)
 
+## *njRAT a Well-known and Highly Prolific RAT*
+
+
 
 
 
