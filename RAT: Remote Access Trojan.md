@@ -30,7 +30,14 @@ In the following, we will consider building a Windows RAT through two popular fr
 This Remote Access Trojan (RAT) is a simple.NET backdoor that is popular among amateurs, especially in the Middle East. The majority of users are low-level criminals, and it is frequently delivered via drive-by downloads or phishing attacks. njRATs files frequently include custom packets (.PDF) to avoid detection by traditional antivirus solutions, and once installed, the malware is capable of hijacking infected systems[[3]](https://www.zdnet.com/article/njrat-secures-top-spot-as-most-active-malware-on-networks-in-2017/).
 
 Here is an example of accessing and hacking a system with Windows OS via the njRAT tool(njRAT-v0.8d):
-![nj_RAT_01](https://user-images.githubusercontent.com/90869009/158079484-6acd8ea0-06cd-4f0b-aaae-0240f9b933b4.jpg)
+![nj_RAT_01](https://user-images.githubusercontent.com/90869009/158079991-4731a887-2408-4adf-b9eb-93ee868146b9.jpg)
+By clicking on the njRAT.exe file, the user(hacker) accesses the application's environment. After entering the desired port, creating the malicious file will start by clicking the Build button.
+![nj_RAT_02](https://user-images.githubusercontent.com/90869009/158080171-0ea05f48-9b76-47e7-b3c5-a0ef9e53cb26.jpg)
+In Builder Windows, the local IP of the hacker's system will enter in the Host section. Of course, an IP provided by a  VPS or Port Forwarding approach would be more effective.
+![nj_RAT_03](https://user-images.githubusercontent.com/90869009/158080884-ba144552-6756-487d-82e2-5486390f6667.jpg)
+A nickname could be set for the file (Vic Time Name Section). From Dictionary Drop-Down List, the directory of the RAT file in the target (victim's) system could be specified. A name should be set for the exe file, and finally,  the RAT file will be created by clicking on the Build button.
+
+
 
 
 
