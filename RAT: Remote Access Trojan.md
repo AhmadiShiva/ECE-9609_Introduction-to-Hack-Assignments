@@ -18,6 +18,14 @@ Although most RATs are malicious, there are some useful RATs. Programs like Team
 ## *Rat Attack Procedure*
 "RAT is a malware program that includes **a back door for administrative control** over the target computer"[[1]](https://www.techtarget.com/searchsecurity/definition/RAT-remote-access-Trojan). A backdoor is a way to get access to a computer system or encrypted data by circumventing the system's normal security measures. Email attachments, USB memory, and file bundles are all common ways for RAT to get into a system. RATs are typically delivered as an email attachment or downloaded **invisibly** with a user-requested program, such as a game or any other popular application. Once the host system has been infiltrated, the intruder can use it to spread RATs to other computers that are vulnerable, forming a botnet[[1]](https://www.techtarget.com/searchsecurity/definition/RAT-remote-access-Trojan). 
 
+RATs are often built on the **Client/Server architecture**. The attacker has control over the client, and the server is installed on the victim's PC. To implement remote control for the victim host, the attacker utilizes the client to control the server[[2]](https://www.mdpi.com/2079-9292/9/11/1894/htm).
+![02_The_Whole_Communication_of_RAT](https://user-images.githubusercontent.com/90869009/158065913-0f63b41c-fea8-4c16-ba2e-9dc57527e3c0.jpg)
+
+
+
+
+
+
 
 
 
