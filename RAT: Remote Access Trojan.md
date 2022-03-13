@@ -3,7 +3,7 @@
 
 The hacker can use this program to send you image and video files or any other file. If there is an active and up-to-date antivirus on your system, some of these uploaded files will be detected and prevented from infiltrating your system. However, in some cases, there are RATs that are not even detected by the antivirus. 
 
-## What Can a RAT Virus  Do?
+## *What Can a RAT Virus  Do?*
 Once RAT is installed on the victim's computer system, the hacker can do almost anything with your system. 
 
 Some of these malicious activities are as follows:
@@ -13,7 +13,7 @@ Some of these malicious activities are as follows:
   * Use your system as a zombie system for DDOS attacks.
   * Monitoring victim's screen.
 
-## Can RATs Be Useful?
+## *Can RATs Be Useful?*
 Although most RAT Programs are malicious, there are some useful RATs. Programs like TeamViewer are valuable programs used to remotely control systems over the Internet and to transfer files and support systems.
 
 
