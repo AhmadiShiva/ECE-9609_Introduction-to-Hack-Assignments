@@ -13,7 +13,7 @@ Some of these malicious activities are as follows:
   
 
 ## *Can RATs Be Useful?*
-Although most RAT Programs are malicious, there are some useful RATs.Programs like TeamViewer are valuable programs used to remotely control systems over the Internet and to transfer files and support systems. When there is a technical problem with any of the computers at workplaces, the corporate IT guys may use a RAT to gain access to the computer and resolve the issue.
+Although most RAT Programs are malicious, there are some useful RATs. Programs like TeamViewer are valuable programs used to remotely control systems over the Internet and to transfer files and support systems. When there is a technical problem with any of the computers at workplaces, the corporate IT guys may use a RAT to gain access to the computer and resolve the issue.
 
 
 
