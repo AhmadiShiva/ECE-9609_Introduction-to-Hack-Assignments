@@ -29,7 +29,10 @@ In the following, we will consider building a Windows RAT through two popular fr
 ### *njRAT*
 This Remote Access Trojan (RAT) is a simple.NET backdoor that is popular among amateurs, especially in the Middle East. The majority of users are low-level criminals, and it is frequently delivered via drive-by downloads or phishing attacks. njRATs files frequently include custom packets (.PDF) to avoid detection by traditional antivirus solutions, and once installed, the malware is capable of hijacking infected systems[[3]](https://www.zdnet.com/article/njrat-secures-top-spot-as-most-active-malware-on-networks-in-2017/).
 
-Here is an example  of accessing and hacking a Windows system via the njRAT tool:
+Here is an example of accessing and hacking a system with Windows OS via the njRAT tool(njRAT-v0.8d):
+![nj_RAT_01](https://user-images.githubusercontent.com/90869009/158079484-6acd8ea0-06cd-4f0b-aaae-0240f9b933b4.jpg)
+
+
 
 
 ### *Metasploit*
