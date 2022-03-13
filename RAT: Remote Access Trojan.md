@@ -1,7 +1,7 @@
 ![01_What_Is_RAT](https://user-images.githubusercontent.com/90869009/158062109-365517b6-ab1f-4191-90e2-dbadea787e44.jpg)
 **RAT** stands for **Remote Access Trojan** or **Remote Administration Tool**. This type of tool is one of the most terrible security threats for both individuals and organizations. Using RAT, a hacker can take complete control of victim’s computer and do anything with it.
 
-## *What Can a RAT Virus Do?*
+## *What Can a RAT Do?*
 RAT is often used by **APT attackers** to gain interactive access to a victim's computer and steal confidential data. Once RAT is installed on the victim's computer system, the hacker can do almost anything with the system. 
 
 Some of these malicious activities are as follows:
