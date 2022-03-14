@@ -66,6 +66,7 @@ Command components:
  * -p : generating a **payload**
  * windows : generating a  **window**'s 
  * meterpreter : giving a **meterpreter access**
+ * 
 
 
 
