@@ -9,7 +9,7 @@ Some of these malicious activities are as follows:
   * Start and open remote applications such as webcam, music player, etc.
   * Infect system files.
   * Install keyloggers to capture keys entered by the victim.
-  * Use system as a zombie system for DDOS attacks.
+  * Use system as a zombie system for DDOS attacks.--
   
 
 ## *Can RATs Be Useful?*
