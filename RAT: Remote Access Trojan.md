@@ -33,7 +33,7 @@ Here is an example of accessing and hacking a system with Windows OS via the njR
 ![nj_RAT_01](https://user-images.githubusercontent.com/90869009/158079991-4731a887-2408-4adf-b9eb-93ee868146b9.jpg)
 By clicking on the njRAT.exe file, the user(hacker) accesses the application's environment. After entering the desired port, creating the malicious file will start by clicking the Build button.
 ![nj_RAT_02](https://user-images.githubusercontent.com/90869009/158080171-0ea05f48-9b76-47e7-b3c5-a0ef9e53cb26.jpg)
-In Builder Windows, the local IP of the hacker's system will enter in the Host section. Of course, an IP provided by a  VPS or Port Forwarding approach would be more effective.
+In Builder Windows, the local IP of the hacker's system will enter in the Host section. Of course, an IP provided by a VPS approach would be more effective.
 ![nj_RAT_03](https://user-images.githubusercontent.com/90869009/158080884-ba144552-6756-487d-82e2-5486390f6667.jpg)
 A nickname could be set for the file (Vic Time Name Section). From Dictionary Drop-Down List, the directory of the RAT file in the target (victim's) system could be specified. A name should be set for the exe file, and finally,  the RAT file will be created by clicking on the Build button.
 ![nj_RAT_04](https://user-images.githubusercontent.com/90869009/158081537-aa19aadd-37dc-4b0f-aef7-0655bdeaee74.jpg)
@@ -55,7 +55,7 @@ Similarly, the hacker can perform the following activities:
 Finally, access to the victim system can be terminated by the hacker (RC --> Server --> Close).
 
 ### *Metasploit*
-Metasploit is one of the most popular penetration test frameworks that make the penetration test process easier for professionals. In addition to penetration test experts, Metasploit is famous among hackers. This framework speeds up the hacking operation and makes it more accessible. Metasploit is installed on Kali Linux by default.
+Metasploit is one of the most popular penetration test frameworks that make the penetration test process easier for professionals.[[4]](https://docs.rapid7.com/metasploit/) In addition to penetration test experts, Metasploit is famous among hackers. This framework speeds up the hacking operation and makes it more accessible. Metasploit is installed on Kali Linux by default.
 
 One of the features that this framework provides to users is building RAT using payloads. Here is an example of accessing and hacking a Windows system via the Metasploit framework:
 
@@ -81,7 +81,7 @@ Before sending the payload to the victim's system, we need to start a handler to
  ![Metasploit_04](https://user-images.githubusercontent.com/90869009/158119195-cf189a36-9ea9-4bd5-8bd5-0bf504cd1264.jpg)
  
  Then, we will identify that it's a windows payload and the access method is reverse-tcp. LHOST will be set on our(hacker) local IP, and LPORT will set on    the desired listen port(4444).
- ![Metasploit_05](https://user-images.githubusercontent.com/90869009/158122399-acc2579b-aa50-4e2a-9fac-d52902840b55.jpg)
+ ![Metasploit_05](https://user-images.githubusercontent.com/90869009/158131081-001f5cf2-bdb7-404c-a608-26669a6ce996.jpg)
  
  By running and installing the payload (1.exe) on victim's system, the listener has an open session on victim's system (IP: 192.168.10.20).
  ![Metasploit_06](https://user-images.githubusercontent.com/90869009/158123423-4f2b5492-e821-4781-a946-caf6e1e4b154.jpg)
@@ -89,24 +89,17 @@ Before sending the payload to the victim's system, we need to start a handler to
  Accessing  a full control of the target system:
  ![Metasploit_07](https://user-images.githubusercontent.com/90869009/158127881-9782c76d-ce5a-4dd4-9a18-b2af26112098.jpg)
  ![Metasploit_08](https://user-images.githubusercontent.com/90869009/158127169-c15e8ac8-fdc9-492f-af1e-51751fc58430.jpg)
-
  
  
+ # *References*
+ [[1]. www.techtarget.com](https://www.techtarget.com/searchsecurity/definition/RAT-remote-access-Trojan)
  
-
+ [[2]. www.mdpi.com](https://www.mdpi.com/2079-9292/9/11/1894/htm)
  
+ [[3]. www.zdnet.com](https://www.zdnet.com/article/njrat-secures-top-spot-as-most-active-malware-on-networks-in-2017/).
  
+ [[4]. www.metasploit.com](https://docs.rapid7.com/metasploit/)
  
- 
-
-
-
-
-
-
-
-
-
 
 
 
