@@ -86,8 +86,8 @@ Before sending the payload to the victim's system, we need to start a handler to
  By running and installing the payload (1.exe) on victim's system, the listener has an open session on victim's system (IP: 192.168.10.20).
  ![Metasploit_06](https://user-images.githubusercontent.com/90869009/158123423-4f2b5492-e821-4781-a946-caf6e1e4b154.jpg)
  
- And  accessing full control of the target system:
- ![Metasploit_07](https://user-images.githubusercontent.com/90869009/158126924-43e0fa29-a4f0-461c-8be4-b1d46926e0b7.jpg)
+ Accessing  a full control of the target system:
+ ![Metasploit_07](https://user-images.githubusercontent.com/90869009/158127881-9782c76d-ce5a-4dd4-9a18-b2af26112098.jpg)
  ![Metasploit_08](https://user-images.githubusercontent.com/90869009/158127169-c15e8ac8-fdc9-492f-af1e-51751fc58430.jpg)
 
  
