@@ -48,24 +48,17 @@ Similarly, the hacker can perform the following activities:
   * Recording and listening to the microphone ( RC -->  Manager --> Microphone)
   * Viewing and downloading saved passwords in browser ( RC --> Manager --> Get Passwords)
   * Remote Desktop ( RC --> Remote Desktop)
-  * Install keyloggers to capture keys entered by the victim ( RC --> Keylogger)
+  * Capturing keys entered by the victim ( RC --> Keylogger)
   * etc.
   
 ![nj_RAT_07](https://user-images.githubusercontent.com/90869009/158083622-ece89da7-731b-449e-846f-ada73c293196.jpg)
 Finally, access to the victim system can be terminated by the hacker (RC --> Server --> Close).
 
-
-
-
-
-
-
-
-
-
-
 ### *Metasploit*
 Metasploit is one of the most popular penetration test frameworks that make the penetration test process easier for professionals. In addition to penetration test experts, Metasploit is famous among hackers. This framework speeds up the hacking operation and makes it more accessible.
+
+One of the features that this framework provides to users is building RAT using payloads. Here is an example of accessing and hacking a system with Windows OS via the Metasploit framework:
+
 
 
 
