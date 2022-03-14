@@ -57,16 +57,28 @@ Finally, access to the victim system can be terminated by the hacker (RC --> Ser
 ### *Metasploit*
 Metasploit is one of the most popular penetration test frameworks that make the penetration test process easier for professionals. In addition to penetration test experts, Metasploit is famous among hackers. This framework speeds up the hacking operation and makes it more accessible. Metasploit is installed on Kali Linux by default.
 
-One of the features that this framework provides to users is building RAT using payloads. Here is an example of accessing and hacking a system with Windows OS via the Metasploit framework:
+One of the features that this framework provides to users is building RAT using payloads. Here is an example of accessing and hacking a Windows system via the Metasploit framework:
 
 Using the msfvenom tool a payload can be  generated: 
 ![Metasploit_01](https://user-images.githubusercontent.com/90869009/158086707-2b137f7a-9ff8-4a76-aa3e-c79481f132aa.jpg)
 
 Command components: 
  * -p : generating a **payload**
- * windows : generating a  **window**'s 
+ * windows : generating a  **window**'s payload
  * meterpreter : giving a **meterpreter access**
- * 
+ * reverse-tcp : identifying which **method** is applying by this payloads
+ * LHOST : local IP (Hackers system)
+ * -f : Identifying the file format ( as the target is a windows system --> exe)
+ * -o : Identifying the directory in which payload generates.
+
+![Metasploit_02](https://user-images.githubusercontent.com/90869009/158115019-fca78e39-4389-4495-8d76-984e8e36e8f6.jpg)
+By running the command, the payload(1.exe) will be created in the specified directory.
+
+Before sending the payload to the victim's system, we need to start a handler to access the target system. First, we run the  Metasploit (msfconsole).
+![Metasploit_03](https://user-images.githubusercontent.com/90869009/158118677-66436ea5-591d-4ac5-8499-a7957a46e6e5.jpg)
+ 
+ Then exploit a handler(uss/exploit/multi/handler):
+ ![Metasploit_04](https://user-images.githubusercontent.com/90869009/158119195-cf189a36-9ea9-4bd5-8bd5-0bf504cd1264.jpg)
 
 
 
