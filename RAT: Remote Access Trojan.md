@@ -55,9 +55,19 @@ Similarly, the hacker can perform the following activities:
 Finally, access to the victim system can be terminated by the hacker (RC --> Server --> Close).
 
 ### *Metasploit*
-Metasploit is one of the most popular penetration test frameworks that make the penetration test process easier for professionals. In addition to penetration test experts, Metasploit is famous among hackers. This framework speeds up the hacking operation and makes it more accessible.
+Metasploit is one of the most popular penetration test frameworks that make the penetration test process easier for professionals. In addition to penetration test experts, Metasploit is famous among hackers. This framework speeds up the hacking operation and makes it more accessible. Metasploit is installed on Kali Linux by default.
 
 One of the features that this framework provides to users is building RAT using payloads. Here is an example of accessing and hacking a system with Windows OS via the Metasploit framework:
+
+Using the msfvenom tool a payload can be  generated: 
+![Metasploit_01](https://user-images.githubusercontent.com/90869009/158086707-2b137f7a-9ff8-4a76-aa3e-c79481f132aa.jpg)
+
+Command components: 
+ * -p : generating a **payload**
+ * windows : generating a  **window**'s 
+ * meterpreter : giving a **meterpreter access**
+
+
 
 
 
