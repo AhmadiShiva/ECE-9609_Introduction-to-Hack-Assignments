@@ -77,7 +77,7 @@ By running the command, the payload(1.exe) will be created in the specified dire
 Before sending the payload to the victim's system, we need to start a handler to access the target system. First, we run the  Metasploit (msfconsole).
 ![Metasploit_03](https://user-images.githubusercontent.com/90869009/158118677-66436ea5-591d-4ac5-8499-a7957a46e6e5.jpg)
  
- Next step is exploiting a handler(uss/exploit/multi/handler):
+ Next step is exploiting a handler(use/exploit/multi/handler):
  ![Metasploit_04](https://user-images.githubusercontent.com/90869009/158119195-cf189a36-9ea9-4bd5-8bd5-0bf504cd1264.jpg)
  
  Then, we will identify that it's a windows payload and the access method is reverse-tcp. LHOST will be set on our(hacker) local IP, and LPORT will set on    the desired listen port(4444).
