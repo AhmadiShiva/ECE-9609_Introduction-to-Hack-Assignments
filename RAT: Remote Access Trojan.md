@@ -74,7 +74,7 @@ Command components:
 ![Metasploit_02](https://user-images.githubusercontent.com/90869009/158115019-fca78e39-4389-4495-8d76-984e8e36e8f6.jpg)
 By running the command, the payload(1.exe) will be created in the specified directory.
 
-Before sending the payload to the victim's system, we need to start a handler to access the target system. First, we run the  Metasploit (msfconsole).
+Before sending the payload to the victim's system, we need to start a handler and listener to access the target system.A listener is a component that waits for an incoming connection from a vulnerable system. If you want to connect your Metasploit server to the exploited machine, you must first set up a listener. First, we run the  Metasploit (msfconsole).
 ![Metasploit_03](https://user-images.githubusercontent.com/90869009/158118677-66436ea5-591d-4ac5-8499-a7957a46e6e5.jpg)
  
  Next step is exploiting a handler(use exploit/multi/handler):
